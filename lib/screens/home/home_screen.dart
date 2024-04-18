@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/screens/home/components/achievements.dart';
 import 'package:portfolio/screens/home/components/experience.dart';
 import 'package:portfolio/screens/main/main_screen.dart';
 import 'components/home_banner.dart';
@@ -15,6 +16,7 @@ class HomeScreen extends StatelessWidget {
         HomeBanner(),
         MyExperience(),
         MyProjects(),
+        Achievements(),
         Recommendations(),
       ],
     );

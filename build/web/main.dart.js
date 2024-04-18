@@ -71438,7 +71438,7 @@ return A.dP(A.a([A.iE(A.a([A.cn(this.a.d,s,s,B.wx,s),A.cn(""+B.c.Y(b*100)+"%",s,
 $S:441}
 A.Gt.prototype={
 L(a){var s=A.amB(B.a9,null),r=A.a4(a).p3,q=A.eJ(r.a),p=A.eJ(r.b),o=A.eJ(r.c),n=A.eJ(r.d),m=A.eJ(r.e),l=A.eJ(r.f),k=A.eJ(r.r),j=A.eJ(r.w),i=A.eJ(r.x)
-return new A.vT(B.DR,"Flutter Demo",s.a4o(B.fV,B.cR,B.fV,A.a6e(A.eJ(r.y),A.eJ(r.z),A.eJ(r.Q),q,p,o,n,m,l,A.eJ(r.as),A.eJ(r.at),A.eJ(r.ax),k,j,i).a2T(B.i)),!1,null)}}
+return new A.vT(B.DR,"Ganz Portfolio",s.a4o(B.fV,B.cR,B.fV,A.a6e(A.eJ(r.y),A.eJ(r.z),A.eJ(r.Q),q,p,o,n,m,l,A.eJ(r.as),A.eJ(r.at),A.eJ(r.ax),k,j,i).a2T(B.i)),!1,null)}}
 A.EC.prototype={}
 A.V0.prototype={}
 A.HK.prototype={}
@@ -71479,7 +71479,7 @@ while(true)switch(s){case 0:return A.L(null,r)}})
 return A.M($async$$0,r)},
 $S:9}
 A.Fg.prototype={
-L(a){var s=null,r=t.w,q=A.bO(a,s,r).w.a.a<=500?2.5:3,p=A.axd(s,s,new A.me("images/bg2.jpg",s,s)),o=A.ed(s,s,B.q,A.a_(168,25,25,35),s,s,s,s,s,s,s,s,s),n=t.p,m=A.a([A.cn("Welcome To\nMy Portfolio!",s,s,A.bO(a,s,r).w.a.a>=1024?A.a4(a).p3.c.KH(B.i,B.bn):A.a4(a).p3.f.KH(B.i,B.bn),s)],n)
+L(a){var s=null,r=t.w,q=A.bO(a,s,r).w.a.a<=500?2.5:3,p=A.axd(s,s,new A.me("assets/images/bg2.jpg",s,s)),o=A.ed(s,s,B.q,A.a_(168,25,25,35),s,s,s,s,s,s,s,s,s),n=t.p,m=A.a([A.cn("Welcome To\nMy Portfolio!",s,s,A.bO(a,s,r).w.a.a>=1024?A.a4(a).p3.c.KH(B.i,B.bn):A.a4(a).p3.f.KH(B.i,B.bn),s)],n)
 if(A.bO(a,s,r).w.a.a<=700)m.push(B.cr)
 m.push(B.Is)
 m.push(B.cs)
@@ -74688,7 +74688,7 @@ B.xj=new A.oM("City","Coimbatore",null)
 B.xk=new A.oM("Residence","India",null)
 B.fB=new A.tA(0,"polite")
 B.fC=new A.tA(1,"assertive")
-B.xl=new A.me("images/pp-235648a.jpg",null,null)
+B.xl=new A.me("assets/images/pp-235648a.jpg",null,null)
 B.K=new A.oP(0,"up")
 B.cI=new A.oP(1,"right")
 B.I=new A.oP(2,"down")
@@ -78031,7 +78031,7 @@ s($,"aI3","as_",()=>A.fl(A.awL(A.he($.arY(),$.as2()),t.z),new A.adz(),t.j,A.a7("
 s($,"aHZ","arX",()=>{var q=t.ob,p=A.a7("da")
 return A.awi(A.apY(A.awe(A.ahS("^",null),t.N),$.as_(),q,p),new A.adw(),q,p,p)})
 s($,"aFH","aeZ",()=>A.ako())
-r($,"aIJ","aiT",()=>A.a([A.akp(A.ajw("2023 DEC - 2024 MAR","Coimbatore","images/athlete_arena.png","Athlete Arena","https://athletearena.in/"),"\u2022 Led the development of a comprehensive mobile booking platform for sports and fitness \nservices, catering to both consumers and service providers\n\u2022 Architected and implemented robust backend infrastructure to support real-time \nbooking, scheduling, and payment processing capabilities","Software Engineer Intern"),A.akp(A.ajw("2022 AUG - 2022 DEC","Bengaluru","images/subcom_logo_long-4abdc3de.png","Subconscious Compute Pvt. Ltd.","https://www.subcom.tech/"),"\u2022 Designed and developed scalable, high-performance software systems to support complex bioinformatics \nresearch and analysis workflows, delivering innovative features and enhancements\n\u2022 Collaborated cross-functionally with data scientists, researchers, and domain experts\n to understand intricate bioinformatics challenges and translate them into effective software solutions\n","System Engineer Intern")],A.a7("u<EC>")))
+r($,"aIJ","aiT",()=>A.a([A.akp(A.ajw("2023 DEC - 2024 MAR","Coimbatore","assets/images/athlete_arena.png","Athlete Arena","https://athletearena.in/"),"\u2022 Led the development of a comprehensive mobile booking platform for sports and fitness \nservices, catering to both consumers and service providers\n\u2022 Architected and implemented robust backend infrastructure to support real-time \nbooking, scheduling, and payment processing capabilities","Software Engineer Intern"),A.akp(A.ajw("2022 AUG - 2022 DEC","Bengaluru","assets/images/subcom_logo_long-4abdc3de.png","Subconscious Compute Pvt. Ltd.","https://www.subcom.tech/"),"\u2022 Designed and developed scalable, high-performance software systems to support complex bioinformatics \nresearch and analysis workflows, delivering innovative features and enhancements\n\u2022 Collaborated cross-functionally with data scientists, researchers, and domain experts\n to understand intricate bioinformatics challenges and translate them into effective software solutions\n","System Engineer Intern")],A.a7("u<EC>")))
 r($,"aIK","aiU",()=>A.a([A.alN(" \u2022 Designed and developed a desktop application for an Automatic Timetable Generator using Python and the Qt framework, enabling college administrators to efficiently schedule classes and regulate workflow\n\u2022 Implemented machine learning algorithms to optimize scheduling, ensuring that\nclasses for staff members did not overlap, improving resource utilization and minimizing conflicts"," Automated College Timetable Generator"),A.alN(" \u2022 Designed and developed a feature-rich e-commerce mobile application using the Flutter framework, providing a seamless and responsive user experience across multiple platforms (Android and iOS)\n \u2022 Implemented a comprehensive product catalog system, allowing users to browse, search, and filter through a wide range of products, enhancing product discovery and user engagement","E-Commerce Complate App - Flutter UI")],A.a7("u<HK>")))
 s($,"aIL","ast",()=>{var q="Linkedin"
 return A.a([A.a27("Kolapo Obanewa",q,"I have had the pleasure of working with Anwar on two flutter projects and what strikes me the most about his work is his ability to write clean and reusable codes with best practices. He is hardworking and makes it so easy to transcribe ideas into beautiful and testable flutter apps. He is a Flutter/Dart gem and has my highest recommendation"),A.a27("Reza Shahbazi",q,"Abu is great asset for any organization. It's a true pleasure working with him at TakeIn. His flutter skill is amazing as well as his professionalism and being a good team player. Abu's problem solving skill is also one of his great skills."),A.a27("Diadem","YouTube","I like your way you doing your project and you taught us. After I watch this I like and hit the subscribe button and then watch your video playlist one by one!! Within three hours, I learned a lot! I share your channel in my college WhatsApp group!"),A.a27("Roshan Shetty","YouTube","Very straightforward, professional and also the best flutter videos in the youtube! It will be great if you add some comments to your steps with 0.5 seconds pause before implementing this step. By meaning of steps, I mean not the basic, but structural steps, like 10-20 steps per video. However, thank you very much!")],A.a7("u<HU>"))})

@@ -67,7 +67,7 @@ class ExperienceCard extends StatelessWidget {
                 onPressed: () async {
                   final Uri url = Uri.parse(project.company!.url!);
                   if (!await launchUrl(url)) {
-                    throw Exception('Could not launch ${project.company!.url!}');
+                   
                   }
                 },
                 child: const Text(
@@ -77,7 +77,10 @@ class ExperienceCard extends StatelessWidget {
               ),
                TextButton(
             onPressed: () async {
-        
+            final Uri url = Uri.parse(project.company!.certificate!);
+                  if (!await launchUrl(url)) {
+                   
+                  }
             },
             child: const Text(
               "View Certificate >>",

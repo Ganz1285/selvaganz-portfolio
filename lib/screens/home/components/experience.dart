@@ -24,13 +24,13 @@ class MyExperience extends StatelessWidget {
         const Responsive(
           mobile: ProjectsGridView(
             crossAxisCount: 1,
-            childAspectRatio: 1.7,
+            childAspectRatio: 1.2,
           ),
           mobileLarge: ProjectsGridView(
-             childAspectRatio: 1.7,
+             childAspectRatio: 1.2,
           ),
           tablet: ProjectsGridView(
-             childAspectRatio: 1.7,
+             childAspectRatio: 3.0,
           ),
           desktop: ProjectsGridView(),
         )

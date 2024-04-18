@@ -45,7 +45,13 @@ class SideMenu extends StatelessWidget {
                     const Divider(),
                     const SizedBox(height: defaultPadding / 2),
                     TextButton(
-                      onPressed: () {},
+                      onPressed: () async {
+                        final Uri url = Uri.parse(
+                            "https://drive.google.com/file/d/1-LE-egaGzMNQdIZrK3uTmU8EPS_d-D1i/view");
+                        if (!await launchUrl(url)) {
+                          throw Exception('Could not launch url');
+                        }
+                      },
                       child: FittedBox(
                         child: Row(
                           children: [
@@ -82,9 +88,8 @@ class SideMenu extends StatelessWidget {
                           ),
                           IconButton(
                             onPressed: () async {
-                              
-                                final Uri url = Uri.parse(
-                                  "https://github.com/Ganz1285");
+                              final Uri url =
+                                  Uri.parse("https://github.com/Ganz1285");
                               if (!await launchUrl(url)) {
                                 throw Exception('Could not launch url');
                               }
@@ -93,15 +98,13 @@ class SideMenu extends StatelessWidget {
                           ),
                           IconButton(
                             onPressed: () async {
-                             
-                                  final Uri url = Uri.parse(
+                              final Uri url = Uri.parse(
                                   "https://leetcode.com/Selvaganapathy-258/");
                               if (!await launchUrl(url)) {
                                 throw Exception('Could not launch url');
                               }
-                           
                             },
-                            icon: SvgPicture.asset("icons/leetcode.svg"),
+                            icon: SvgPicture.asset("assets/icons/leetcode.svg"),
                           ),
                           const Spacer(),
                         ],
